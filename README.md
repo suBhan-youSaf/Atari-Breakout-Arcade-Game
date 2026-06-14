@@ -57,4 +57,4 @@ Because this is a 16-bit real-mode program, it cannot run natively on modern 64-
 1. **Assemble the code:**
    Compile the source code (`q820.asm`) into a standard DOS executable `.com` format using NASM:
    ```bash
-   nasm -f bin q820.asm -o breakout.com
+   nasm -f bin game.asm -o breakout.com
